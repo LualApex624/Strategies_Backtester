@@ -1,4 +1,4 @@
-# Quant-Core — Backtesting Engine
+# QuantCore Backtesting Engine
 
 Realistic backtesting engine with walk-forward optimization, overfitting detection, multi-strategy ranking and interactive Streamlit dashboard.
 
