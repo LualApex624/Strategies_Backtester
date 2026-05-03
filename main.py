@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Point d'entrée unique — Quant-Core Backtesting Engine."""
+"""QuantCore Backtesting Engine."""
 
 import sys
 import argparse
@@ -23,7 +23,7 @@ PARAM_GRIDS = {
 
 def run_full_pipeline():
     print("=" * 60)
-    print("  QUANT-CORE — Moteur de Backtesting (version pro)")
+    print("  QUANTCORE Moteur de Backtesting")
     print("=" * 60)
 
     data = generate_sample_data()
