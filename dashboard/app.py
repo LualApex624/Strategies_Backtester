@@ -15,8 +15,8 @@ from metrics.performance import compute_metrics
 from ranking.scorer import rank_strategies, compute_score
 from optimization.walk_forward import WalkForwardOptimizer
 
-st.set_page_config(page_title="Quant-Core Backtester", layout="wide")
-st.title("Quant-Core — Moteur de Backtesting")
+st.set_page_config(page_title="QuantCore Backtester", layout="wide")
+st.title("QuantCore Moteur de Backtesting")
 
 PARAM_GRIDS = {
     "SMACross": {"fast_period": [10, 20, 30], "slow_period": [40, 50, 60, 80]},
